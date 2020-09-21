@@ -24,7 +24,7 @@
 .xdsoft_flipcountdown.xdsoft_size_lg>.xdsoft_digit {
     width: 53px;
     height: 76px;
-    background-image: url('img/digit-lg.png');
+    background-image: url('/img/digit-lg.png');
 }
 
 .xdsoft_flipcountdown.xdsoft_size_lg>.xdsoft_digit.xdsoft_space,
@@ -45,7 +45,7 @@
 .xdsoft_flipcountdown.xdsoft_size_md>.xdsoft_digit {
     width: 36px;
     height: 51px;
-    background-image: url('img/digit-md.png');
+    background-image: url('/img/digit-md.png');
 }
 
 .xdsoft_flipcountdown.xdsoft_size_md>.xdsoft_digit.xdsoft_space,
@@ -58,7 +58,7 @@
 .xdsoft_flipcountdown.xdsoft_size_sm>.xdsoft_digit {
     width: 24px;
     height: 34px;
-    background-image: url('img/digit-sm.png');
+    background-image: url('/img/digit-sm.png');
 }
 
 .xdsoft_flipcountdown.xdsoft_size_sm>.xdsoft_digit.xdsoft_space,
@@ -71,7 +71,7 @@
 .xdsoft_flipcountdown.xdsoft_size_xs>.xdsoft_digit {
     width: 16px;
     height: 23px;
-    background-image: url(img/digit-xs.png);
+    background-image: url(/img/digit-xs.png);
 }
 
 .xdsoft_flipcountdown.xdsoft_size_xs>.xdsoft_digit.xdsoft_space,

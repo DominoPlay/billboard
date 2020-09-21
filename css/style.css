@@ -494,243 +494,243 @@ body {
 }
 
 .svg-good-night {
-    background-image: url(img/GOOD-NIGHT-b.svg);
+    background-image: url(/img/GOOD-NIGHT-b.svg);
     background-position: 0 -4px;
 }
 
 .banner_green .svg-good-night {
-    background-image: url(img/GOOD-NIGHT-w.svg);
+    background-image: url(/img/GOOD-NIGHT-w.svg);
     background-position: 2px -5px;
 }
 
 .banner_red .svg-good-night {
-    background-image: url(img/GOOD-NIGHT-w.svg);
+    background-image: url(/img/GOOD-NIGHT-w.svg);
     background-position: 2px -5px;
 }
 
 .svg-supermarket {
-    background-image: url('img/supermarket-b.svg');
+    background-image: url('/img/supermarket-b.svg');
     background-position: 2px -6px;
 }
 
 .banner_green .svg-supermarket {
-    background-image: url('img/supermarket-w.svg');
+    background-image: url('/img/supermarket-w.svg');
     background-position: 2px -6px;
 }
 
 .banner_red .svg-supermarket {
-    background-image: url('img/supermarket-w.svg');
+    background-image: url('/img/supermarket-w.svg');
     background-position: 2px -6px;
 }
 
 .svg-good-day {
-    background-image: url(img/GOOD-DAY-b-01.svg);
+    background-image: url(/img/GOOD-DAY-b-01.svg);
     background-position: 0 -14px;
 }
 
 .svg-up {
-    background-image: url(img/PRYAMO-w.svg);
+    background-image: url(/img/PRYAMO-w.svg);
     background-position: 21px 6px;
 }
 
 .banner_red .svg-good-day {
-    background-image: url(img/GOOD-DAY-w-01.svg);
+    background-image: url(/img/GOOD-DAY-w-01.svg);
     background-position: 0 -14px;
 }
 
 .banner_green .svg-good-day {
-    background-image: url(img/GOOD-DAY-w-01.svg);
+    background-image: url(/img/GOOD-DAY-w-01.svg);
     background-position: 0 -14px;
 }
 
 .banner_blue .svg-good-day {
-    background-image: url(img/GOOD-DAY-w-01.svg);
+    background-image: url(/img/GOOD-DAY-w-01.svg);
     background-position: 0 -14px;
 }
 
 .svg-good-morn {
-    background-image: url(img/GOOD-MORNING-b.svg);
+    background-image: url(/img/GOOD-MORNING-b.svg);
     background-position: 0 -7px;
 }
 
 .banner_red .svg-good-morn {
-    background-image: url(img/GOOD-MORNING-w.svg);
+    background-image: url(/img/GOOD-MORNING-w.svg);
     background-position: 0 -7px;
 }
 
 .svg-roadworks {
-    background-image: url(img/raboty.svg);
+    background-image: url(/img/raboty.svg);
     background-position: 0 -2px;
     background-size: 80px;
 }
 
 .banner_blue .svg-good-morn {
-    background-image: url(img/GOOD-MORNING-w.svg);
+    background-image: url(/img/GOOD-MORNING-w.svg);
 }
 
 .banner_green .svg-good-morn {
-    background-image: url(img/GOOD-MORNING-w.svg);
+    background-image: url(/img/GOOD-MORNING-w.svg);
     background-position: 2px -7px;
 }
 
 .svg-road-work {
-    background-image: url(img/raboty.svg);
+    background-image: url(/img/raboty.svg);
 }
 
 .svg-crosswalk {
     background-position: 0 -2px;
     background-size: 80px;
-    background-image: url('img/PESHEHOD.svg');
+    background-image: url('/img/PESHEHOD.svg');
 }
 
 .svg-turn_left {
     background-size: 53px;
-    background-image: url(img/turn_leftt_b.png);
+    background-image: url(/img/turn_leftt_b.png);
     background-position: 8px 5px;
 }
 
 .banner_red .svg-turn_left {
     background-size: 53px;
-    background-image: url(img/turn_leftt_w.png);
+    background-image: url(/img/turn_leftt_w.png);
     background-position: 8px 5px;
 }
 
 .banner_green .svg-turn_left {
     background-size: 53px;
-    background-image: url(img/turn_leftt_w.png);
+    background-image: url(/img/turn_leftt_w.png);
     background-position: 8px 5px;
 }
 
 .svg-turn_right {
-    background-image: url(img/turn_right_b.png);
+    background-image: url(/img/turn_right_b.png);
     background-size: 53px;
     background-position: 19px 5px;
 }
 
 .banner_red .svg-turn_right {
-    background-image: url(img/turn_right_w.png);
+    background-image: url(/img/turn_right_w.png);
     background-size: 53px;
     background-position: 19px 5px;
 }
 
 .banner_green .svg-turn_right {
-    background-image: url(img/turn_right_w.png);
+    background-image: url(/img/turn_right_w.png);
     background-size: 53px;
     background-position: 19px 5px;
 }
 
 .svg-turn_off {
-    background-image: url(img/turn-b.png);
+    background-image: url(/img/turn-b.png);
     background-size: 53px;
     background-position: 19px 5px;
 }
 
 .svg-ostanovka {
-    background-image: url(img/ostanovka.svg);
+    background-image: url(/img/ostanovka.svg);
     background-size: 150px;
 }
 
 .banner_red .svg-turn_off {
-    background-image: url(img/turn.png);
+    background-image: url(/img/turn.png);
     background-size: 53px;
     background-position: 19px 5px;
 }
 
 .banner_green .svg-turn_off {
-    background-image: url(img/turn.png);
+    background-image: url(/img/turn.png);
     background-size: 53px;
     background-position: 19px 5px;
 }
 
 .banner_blue .svg-turn_off {
-    background-image: url(img/turn.png);
+    background-image: url(/img/turn.png);
     background-size: 53px;
     background-position: 26px 17px;
 }
 
 .banner_blue .svg-turn_right {
-    background-image: url(img/turn_right_w.png);
+    background-image: url(/img/turn_right_w.png);
     background-size: 53px;
     background-position: 42px 17px;
 }
 
 .banner_blue .svg-turn_left {
-    background-image: url(img/turn_leftt_w.png);
+    background-image: url(/img/turn_leftt_w.png);
     background-position: 28px 17px;
 }
 
 .svg-children {
-    background-image: url('img/DETI-b.svg');
+    background-image: url('/img/DETI-b.svg');
     background-size: 80px;
     background-position: 3px -2px;
 }
 
 .banner_red .svg-children {
-    background-image: url('img/DETI-w.svg');
+    background-image: url('/img/DETI-w.svg');
     background-size: 80px;
     background-position: 3px -2px;
 }
 
 .banner_green .svg-children {
-    background-image: url('img/DETI-w.svg');
+    background-image: url('/img/DETI-w.svg');
     background-size: 80px;
     background-position: 3px -2px;
 }
 
 .svg-fueling {
-    background-image: url('img/GAS-b.svg');
+    background-image: url('/img/GAS-b.svg');
     background-size: 80px;
     background-position: 3px -2px;
 }
 
 .banner_red .svg-fueling {
-    background-image: url('img/GAS-w.svg');
+    background-image: url('/img/GAS-w.svg');
     background-size: 80px;
     background-position: 3px -2px;
 }
 
 .banner_green .svg-fueling {
-    background-image: url('img/GAS-w.svg');
+    background-image: url('/img/GAS-w.svg');
     background-size: 80px;
     background-position: 3px -2px;
 }
 
 .svg-road-up {
-    background-image: url(img/PRYAMO-b.svg);
+    background-image: url(/img/PRYAMO-b.svg);
 }
 
 .svg-ice-crusted {
-    background-image: url(img/GOLOLED-b.svg);
+    background-image: url(/img/GOLOLED-b.svg);
     background-size: 84px;
     background-position: 6px 1px;
 }
 
 .banner_red .svg-ice-crusted {
-    background-image: url(img/GOLOLED-w.svg);
+    background-image: url(/img/GOLOLED-w.svg);
     background-size: 84px;
     background-position: 6px 1px;
 }
 
 .banner_green .svg-ice-crusted {
-    background-image: url(img/GOLOLED-w.svg);
+    background-image: url(/img/GOLOLED-w.svg);
     background-size: 84px;
     background-position: 6px 1px;
 }
 
 .svg-fog {
-    background-image: url(img/TUMAN-b.svg);
+    background-image: url(/img/TUMAN-b.svg);
     background-size: 84px;
     background-position: 6px 1px;
 }
 
 .banner_red .svg-fog {
-    background-image: url(img/TUMAN-w.svg);
+    background-image: url(/img/TUMAN-w.svg);
     background-size: 84px;
     background-position: 6px 1px;
 }
 
 .banner_green .svg-fog {
-    background-image: url(img/TUMAN-w.svg);
+    background-image: url(/img/TUMAN-w.svg);
     background-size: 84px;
     background-position: 6px 1px;
 }
@@ -1560,7 +1560,7 @@ body.splat-toggle .splat {
 .snow2 {
     position: relative;
     z-index: 0;
-    background-image: url('img/snow.png'), url('img/snow3.png'), url('img/snow2.png');
+    background-image: url('/img/snow.png'), url('/img/snow3.png'), url('/img/snow2.png');
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;
     -ms-animation: snow 20s linear infinite;
@@ -1747,7 +1747,7 @@ body.splat-toggle .splat {
 .widget_section_snow_night {
     width: 256px !important;
     height: 100px !important;
-    background: url(img/digital-art-abstract-sky-circle-snow-flakes-line-computer-wallpaper-217688-min.jpg);
+    background: url(/img/digital-art-abstract-sky-circle-snow-flakes-line-computer-wallpaper-217688-min.jpg);
     background-size: cover;
     background-position: 50% 30%;
 }
