@@ -1694,7 +1694,7 @@ body.splat-toggle .splat {
 
 .clock {
     text-align: center;
-    padding-top: 2px;
+    padding-top: 0;
     width: 100%;
 }
 
