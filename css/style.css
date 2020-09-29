@@ -1769,10 +1769,67 @@ body.splat-toggle .splat {
     background-position: right top;
 }
 
+.widget_section_cloud {
+    background: url(../img/weather-clouds-bg.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.widget_section_cloud_night {
+    background: url(../img/weather-night-partially-cloudy-bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.widget_section_rain {
+    background: url(../img/weather-rain-bg.jpg);
+    background-size: 150%;
+    background-position: center;
+}
+
+.widget_section_rain_night {
+    background: url(https://million-wallpapers.ru/wallpapers/4/46/452350523475081/gorod-v-dozhd.jpg);
+    background-size: 150%;
+    background-position: center;
+}
+
+.widget_section_cloud_sun {
+    background: url(../img/weather-sun-partially-cloudy-bg.jpg);
+    background-size: cover;
+    background-position: 50% 25%;
+}
+
+.widget_section_cloud_lightning {
+    background: url(../img/weather-lightning-bg.jpg);
+    background-size: cover;
+    background-position: 50% 35%;
+}
+
+.widget_section_cloud_moon {
+    background: url(../img/weather-night-cloudy-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.widget_section_cloud_lightning_rain {
+    background: url(https://static.dir.bg/uploads/images/2019/06/25/1783182/1920x1080.jpg?_=1561455700);
+    background-size: cover;
+}
+
+.widget_section_night {
+    background: url(../img/weather-night-bg.jpg);
+    background-size: 300%;
+    background-position: bottom;
+}
+
+.widget_section_snow {
+    background: url(../img/weather-snow-bg.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
 .widget_section_snow_night {
-    width: 256px !important;
-    height: 100px !important;
-    background: url('../img/digital-art-abstract-sky-circle-snow-flakes-line-computer-wallpaper-217688-min.jpg');
+    background: url(https://get.wallhere.com/photo/digital-art-abstract-sky-circle-snow-flakes-line-computer-wallpaper-217688.jpg);
     background-size: cover;
     background-position: 50% 30%;
 }
