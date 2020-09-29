@@ -1763,7 +1763,7 @@ body.splat-toggle .splat {
 }
 
 .widget_section_sun {
-    background-image: url(img/weather-sun-bg.jpg);
+    background-image: url(/img/weather-sun-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right top;
@@ -1772,7 +1772,7 @@ body.splat-toggle .splat {
 .widget_section_snow_night {
     width: 256px !important;
     height: 100px !important;
-    background: url(img/digital-art-abstract-sky-circle-snow-flakes-line-computer-wallpaper-217688-min.jpg);
+    background: url(/img/digital-art-abstract-sky-circle-snow-flakes-line-computer-wallpaper-217688-min.jpg);
     background-size: cover;
     background-position: 50% 30%;
 }
@@ -1967,8 +1967,8 @@ body.splat-toggle .splat {
 }
 
 .exchange_section {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(img/exchange-bg.jpg);
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/exchange-bg.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/img/exchange-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/exchange-bg.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
