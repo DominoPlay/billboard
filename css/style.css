@@ -1744,6 +1744,31 @@ body.splat-toggle .splat {
     background-repeat: no-repeat;
 }
 
+.widget_section,
+.widget_section_sun,
+.widget_section_cloud,
+.widget_section_cloud_night,
+.widget_section_rain,
+.widget_section_rain_night,
+.widget_section_cloud_sun,
+.widget_section_cloud_lightning,
+.widget_section_cloud_moon,
+.widget_section_cloud_lightning_rain,
+.widget_section_night,
+.widget_section_snow,
+.widget_section_snow_night,
+.exchange_section {
+    width: 256px;
+    height: 100px;
+}
+
+.widget_section_sun {
+    background-image: url(/img/weather-sun-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+}
+
 .widget_section_snow_night {
     width: 256px !important;
     height: 100px !important;
@@ -1760,6 +1785,30 @@ body.splat-toggle .splat {
     letter-spacing: 1px;
     margin-bottom: auto;
     font-size: 26px;
+}
+
+.widget_info_header_temp {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding-right: 5px;
+    font-size: 30px;
+}
+
+.widget_info_header_wind,
+.widget_info_header_wet,
+.widget_info_header_probability {
+    padding: 0;
+    font-size: 22px;
+    line-height: 40px;
+    color: white;
+    margin: 0;
+}
+
+.widget_info_header_probability {
+    font-size: 22px;
+    line-height: 22px;
+    width: 150px;
 }
 
 .widget_info {
@@ -1787,7 +1836,6 @@ body.splat-toggle .splat {
 .element {
     height: 50px;
     width: 50px;
-    margin: 0 10px 0 0;
 }
 
 .white {
@@ -1916,4 +1964,34 @@ body.splat-toggle .splat {
 .carousel-fade .carousel-item {
     -webkit-transition-duration: 2s !important;
     transition-duration: 2s !important;
+}
+
+.exchange_section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(/img/exchange-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/exchange-bg.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exchange_title {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-shadow: 1px 2px 4px #000000;
+}
+
+.exchange_img {
+    width: 50px;
+    height: 35px;
+}
+
+.exchange_us_ru,
+.exchange_eu_kz {
+    color: white;
+    font-size: 22px;
+    text-shadow: 1px 2px 4px #000000;
+    font-weight: 500;
 }
