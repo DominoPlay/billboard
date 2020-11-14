@@ -1,2 +1,2 @@
-# billboard-medium
+# billboard
 Bishkek city LED billboards
