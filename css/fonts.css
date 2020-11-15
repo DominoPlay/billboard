@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'WWFlakesRegular';
-    src: url('fonts/wwflakes-webfont.eot');
-    src: local('O'), url('fonts/wwflakes-webfont.woff') format('woff'), url('fonts/wwflakes-webfont.ttf') format('truetype');
+    src: url('../fonts/wwflakes-webfont.eot');
+    src: local('O'), url('../fonts/wwflakes-webfont.woff') format('woff'), url('../fonts/wwflakes-webfont.ttf') format('truetype');
     /* src: local('WWFlakes'), local('WWFlakes'), url('clientscript/fonts/wwflakes-webfont.woff') format('woff'), url('clientscript/fonts/wwflakes-webfont.ttf') format('truetype'); */
     font-weight: normal;
     font-style: normal;
@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'Almibar Pro';
-    src: url('fonts/AlmibarPro.eot');
-    src: local('fonts/Almibar Pro'), local('AlmibarPro'), url('fonts/AlmibarPro.eot?#iefix') format('embedded-opentype'), url('fonts/AlmibarPro.woff') format('woff'), url('fonts/AlmibarPro.ttf') format('truetype');
+    src: url('../fonts/AlmibarPro.eot');
+    src: local('../fonts/Almibar Pro'), local('AlmibarPro'), url('../fonts/AlmibarPro.eot?#iefix') format('embedded-opentype'), url('../fonts/AlmibarPro.woff') format('woff'), url('../fonts/AlmibarPro.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,6 @@
     font-weight: normal !important;
     font-variant: normal !important;
     text-transform: none !important;
-    speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -44,7 +43,6 @@
     font-weight: normal !important;
     font-variant: normal !important;
     text-transform: none !important;
-    speak: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
