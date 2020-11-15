@@ -23,14 +23,14 @@ $(document).ready(function() {
         draggable: false,
         arrows: false,
         dots: false,
-        speed: 1500,
+        speed: 500,
     });
 
     $('.banner__footer').slick({
         slidesToScroll: 1,
         slidesToShow: 1,
         autoplay: true,
-        // fade:true,
+        // fade: true,
         autoplaySpeed: 3000,
         pauseOnHover: true,
         draggable: false,
@@ -43,11 +43,27 @@ $(document).ready(function() {
         slidesToShow: 1,
         autoplay: true,
         // fade:true,
-        autoplaySpeed: 6000,
+        autoplaySpeed: 5000,
+        duration: 500,
         pauseOnHover: true,
         draggable: false,
         arrows: false,
         dots: false,
+        speed: 800
+    })
+
+    $('.banner__small_l_size').slick({
+        slidesToScroll: 1,
+        slidesToShow: 1,
+        autoplay: true,
+        // fade:true,
+        autoplaySpeed: 5000,
+        duration: 500,
+        pauseOnHover: true,
+        draggable: false,
+        arrows: false,
+        dots: false,
+        speed: 800
     });
 
     var makeItRain = function() {
@@ -95,11 +111,15 @@ $(document).ready(function() {
 
     makeItRain();
 
-
     $("#retroclockbox1").flipcountdown({
         size: "md",
         showSecond: true
     });
+
+    $("#retroclockbox2").flipcountdown({
+        size: "lg",
+        showSecond: true
+    })
 
     $(function() {
 
@@ -111,5 +131,27 @@ $(document).ready(function() {
         });
     });
 
+    var clock = new Vue({
+        el: '#clock',
+        data: {
+            time: ''
+        }
+    });
+
+    var timerID = setInterval(updateTime, 1000);
+    updateTime();
+
+    function updateTime() {
+        var cd = new Date();
+        clock.time = zeroPadding(cd.getHours(), 2) + ':' + zeroPadding(cd.getMinutes(), 2);
+    };
+
+    function zeroPadding(num, digit) {
+        var zero = '';
+        for (var i = 0; i < digit; i++) {
+            zero += '0';
+        }
+        return (zero + num).slice(-digit);
+    }
 
 });
