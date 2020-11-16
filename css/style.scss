@@ -369,7 +369,7 @@ body {
     .banner__circle__content {
         font-size: 44px;
         font-weight: bold;
-        line-height: 35px;
+        line-height: 55px;
         position: relative;
         z-index: 9;
     }
@@ -1874,10 +1874,15 @@ body.splat-toggle .splat {
 }
 
 @media only screen and (max-width: 600px) {
+    .time {
+        letter-spacing: 0.05em;
+        font-size: 50px;
+        line-height: 40px;
+    }
     .time_large {
         letter-spacing: 0.05em;
         font-size: 80px;
-        line-height: 60px;
+        line-height: 55px;
     }
 }
 
