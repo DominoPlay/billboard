@@ -1877,12 +1877,12 @@ body.splat-toggle .splat {
     .time {
         letter-spacing: 0.05em;
         font-size: 50px;
-        line-height: 40px;
+        line-height: 40px !important;
     }
     .time_large {
         letter-spacing: 0.05em;
         font-size: 80px;
-        line-height: 55px;
+        line-height: 55px !important;
     }
 }
 
