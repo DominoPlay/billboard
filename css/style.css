@@ -1973,11 +1973,18 @@ body.splat-toggle .splat {
 }
 
 @media only screen and (max-width: 600px) {
-  .time, #clock .time_large {
-    font-size: 44px !important;
+  #clock {
+    font-family: 'Digital', monospace;
+    text-align: center;
+    color: white;
+    height: 100px;
+  }
+  #clock .time, #clock .time_large {
+    font-size: 50px !important;
     line-height: 45px !important;
   }
-  .time_large {
+  #clock .time_large {
+    font-size: 80px !important;
     line-height: 60px !important;
   }
 }
