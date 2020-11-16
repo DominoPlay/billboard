@@ -381,6 +381,25 @@ body {
   padding: 0 2px 0 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .banner__circle__content, .banner__circle__content_large {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 35px;
+    position: relative;
+    z-index: 9;
+  }
+  .banner__circle__content_large {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 65px;
+    letter-spacing: -3px;
+    padding: 0 2px 0 0;
+    position: relative;
+    z-index: 9;
+  }
+}
+
 .banner_blue .banner__circle__content, .banner_blue .banner__circle__content_large {
   line-height: 48px;
 }
@@ -422,7 +441,7 @@ body {
   vertical-align: top;
   font-size: 40px;
   display: inline-block;
-  margin-left: 6rem;
+  margin-left: 50%;
   margin-top: -10px;
 }
 
@@ -430,7 +449,7 @@ body {
   vertical-align: top;
   font-size: 50px;
   display: inline-block;
-  margin-left: 10rem;
+  margin-left: 55%;
   margin-top: -5px;
 }
 
@@ -1951,6 +1970,14 @@ body.splat-toggle .splat {
 #clock .time_large {
   font-size: 80px;
   line-height: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+  .time_large {
+    letter-spacing: 0.05em;
+    font-size: 80px;
+    line-height: 60px;
+  }
 }
 
 .new-year {

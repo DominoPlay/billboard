@@ -12,10 +12,6 @@ $medium: 256px;
 $big: 384px;
 // colors
 $black: #000000;
-$yellow: #ffff00;
-$red: #ff0000;
-$green: #00ff00;
-$blue: #0000ff;
 * {
     margin: 0;
     padding: 0;
@@ -369,6 +365,25 @@ body {
     padding: 0 2px 0 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .banner__circle__content {
+        font-size: 44px;
+        font-weight: bold;
+        line-height: 35px;
+        position: relative;
+        z-index: 9;
+    }
+    .banner__circle__content_large {
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 65px;
+        letter-spacing: -3px;
+        padding: 0 2px 0 0;
+        position: relative;
+        z-index: 9;
+    }
+}
+
 .banner_blue .banner__circle__content {
     line-height: 48px;
 }
@@ -414,7 +429,7 @@ body {
     vertical-align: top;
     font-size: 40px;
     display: inline-block;
-    margin-left: 6rem;
+    margin-left: 50%;
     margin-top: -10px;
 }
 
@@ -422,7 +437,7 @@ body {
     vertical-align: top;
     font-size: 50px;
     display: inline-block;
-    margin-left: 10rem;
+    margin-left: 55%;
     margin-top: -5px;
 }
 
@@ -1855,6 +1870,14 @@ body.splat-toggle .splat {
         @extend .time;
         font-size: 80px;
         line-height: 70px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .time_large {
+        letter-spacing: 0.05em;
+        font-size: 80px;
+        line-height: 60px;
     }
 }
 
