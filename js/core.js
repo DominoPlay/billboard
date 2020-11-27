@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     $('.main__slider').slick({
         slidesToScroll: 1,
         slidesToShow: 1,
@@ -88,5 +87,4 @@ $(document).ready(function() {
         }
         return (zero + num).slice(-digit);
     }
-
 });
